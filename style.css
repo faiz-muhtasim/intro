@@ -1,0 +1,98 @@
+body {
+    background-color: rgb(234, 245, 215);
+}
+
+.text1 {
+    padding-left: 12%;
+    padding-top: 15%;
+    height: 100vh;
+    background-image: url(./background.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.text1 > * {
+    color: rgb(128, 150, 76);
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.pic img{
+    
+    height: 30dvh;
+    width:dvh;
+    border-radius: 50%;
+    
+}
+
+
+.pictxt {
+    display: inline-flex;
+    flex-direction: column;
+    padding-top: 8%;
+    padding-left: 40%;
+    width: 70%;
+}
+.text2 > h2 {
+    color: rgb(33, 168, 141);
+    padding-top: 15%;
+    padding-left: 12%;
+    padding-bottom: 4%;
+}
+.text2 > h4 {
+  align-items: flex-start;
+  font-weight: normal;
+  padding-bottom: 10%;
+  line-height: 1.75;
+}
+
+.skills > h2 {
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+    padding-right: 5%;
+    color: rgb(33, 168, 141);
+}
+
+.coding {
+    display: flex;
+    width: 80%;
+    padding-top: 5%;
+    align-items: center;
+    gap: 1rem;
+    padding-left: 25%;
+}
+.cdntxt > h3 {
+    color: rgb(33, 168, 141);
+}
+
+.coding > img {
+    border-radius: 3%;
+}
+
+.coding1 {
+    display: flex;
+    width: 80%;
+    padding-top: 5%;
+    align-items: center;
+    gap: 1rem;
+    padding-left: 25%;
+}
+.cdntxt1 > h3 {
+    color: rgb(33, 168, 141);
+}
+
+.coding1 > img {
+    border-radius: 3%;
+    width: 31%;
+}
+
+.container1 {
+    background-color: rgb(212, 228, 185);
+    margin-bottom: 0rem !important;
+}
+footer.py-3.my-4 {
+    margin-bottom: 0rem !important;
+}
